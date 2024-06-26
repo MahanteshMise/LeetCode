@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class arrayListSorting {
+    public static void main(String[] args){
+        ArrayList<Integer> arrList = new ArrayList<Integer>();
+        arrList.add(28);
+        arrList.add(27);
+        arrList.add(26);
+        arrList.add(25);
+        arrList.add(24);
+        arrList.add(23);
+        arrList.add(22);
+        System.out.println("Before Sorting :"+arrList);
+        Collections.sort(arrList);
+        System.out.println("After Sorting :"+arrList);
+    }
+}
